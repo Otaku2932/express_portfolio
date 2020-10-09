@@ -3,22 +3,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home'});
+  res.render('index', { title: 'Home', content: 'Hi Im Chadwick'});
 });
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home'});
-});
-router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Me'});
-});
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me'});
-});
-router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects'});
-});
-router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services'});
+  res.render('index', { title: 'Home', content: ''});
 });
 
 module.exports = router;
