@@ -1,9 +1,13 @@
 {
   "name": "express-portfolio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
@@ -17,5 +21,18 @@
     "morgan": "~1.9.1",
     "nodemon": "^2.0.4",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "express portfolio empty",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otaku2932/express_portfolio.git"
+  },
+  "author": "Chadwick Lapis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otaku2932/express_portfolio/issues"
+  },
+  "homepage": "https://github.com/Otaku2932/express_portfolio#readme"
 }
