@@ -18,8 +18,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'node_modules')));
 
 app.use('/', indexRouter);
+app.use('/contact', indexRouter);
+app.use('/about', indexRouter);
+app.use('/projects', indexRouter);
+app.use('/services', indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
