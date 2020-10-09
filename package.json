@@ -1,0 +1,19 @@
+{
+  "name": "express_portfolio",
+  "version": "1.0.0",
+  "description": "assignment1CL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otaku2932/express_portfolio.git"
+  },
+  "author": "Chadwick Lapis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otaku2932/express_portfolio/issues"
+  },
+  "homepage": "https://github.com/Otaku2932/express_portfolio#readme"
+}
