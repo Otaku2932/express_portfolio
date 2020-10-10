@@ -15,10 +15,10 @@ router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact Me', content: 'Contact me through Discord: otaku2932#5782 Email: c_lapis4@hotmail.com', img1: '/assets/images/WIN_20201009_19_52_10_Pro.jpg', img2: '/assets/images/20190515_224121.jpg', img3: '/assets/images/102219_1135_TCPIPvsOSIM1.png', img1label: 'This is Me', img2label: 'Sterling Road Nestle', img3label: 'Most Basic Networking Picture'});
 });
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects', content: 'Currently I am doing modding for Civilization 5 skirmish game mode, and Asset Creation with VR Chat', img1: '/assets/images/civmodding.JPG', img2: '/assets/images/LouON.JPG', img3: '/assets/images/avatarAnim.gif', img3label: 'Civ 5 Modding', img2label: 'VR Chat Avatar Creation', img1label: 'Avatar Custom Animation'});
+  res.render('index', { title: 'Projects', content: 'Currently I am doing modding for Civilization 5 skirmish game mode, and Asset Creation with VR Chat', img1: '/assets/images/avatarAnim.gif', img2: '/assets/images/civmodding.JPG', img3: '/assets/images/LouON.JPG', img1label: 'Avatar Custom Animation', img2label: 'Civ 5 Modding', img3label: 'VR Chat Avatar Creation'});
 });
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services', content: 'I can make basic avatar for VR Chat, and  Stream gaming content on https://www.twitch.tv/otaku2932', img2: '/assets/images/LouON.JPG', img1: '/assets/images/Twitch.JPG', img3: '/assets/images/streaming.gif', img2label: 'VR Chat Avatar Creation', img3label: 'Twitch Channel', img3label: 'Twitch Stream'});
+  res.render('index', { title: 'Services', content: 'I can make basic avatar for VR Chat, and  Stream gaming content on https://www.twitch.tv/otaku2932', img1: '/assets/images/Twitch.JPG' , img2: '/assets/images/LouON.JPG', img3: '/assets/images/streaming.gif', img1label: 'Twitch Channel', img2label: 'VR Chat Avatar Creation', img3label: 'Twitch Stream'});
 });
 
 module.exports = router;
