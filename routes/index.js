@@ -18,7 +18,7 @@ router.get('/projects', function(req, res, next) {
   res.render('index', { title: 'Projects', content: 'Currently I am doing modding for Civilization 5 skirmish game mode, and Asset Creation with VR Chat', img1: 'public/assets/images/civmodding.JPG', img2: 'public/assets/images/LouON.JPG', img3: 'public/assets/images/avatarAnim.gif', img1label: 'Civ 5 Modding', img2label: 'VR Chat Avatar Creation', img3label: 'Avatar Custom Animation'});
 });
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services', content: 'I can make basic avatar for VR Chat, and  Stream gaming content on <a href="https://www.twitch.tv/otaku2932">twitch</a>', img1: 'public/assets/images/LouON.JPG', img2: 'public/assets/images/Twitch.JPG', img3: 'public/assets/images/streaming.gif', img1label: 'VR Chat Avatar Creation', img2label: 'Twitch Channel', img3label: 'Twitch Stream'});
+  res.render('index', { title: 'Services', content: 'I can make basic avatar for VR Chat, and  Stream gaming content on \<a href="https://www.twitch.tv/otaku2932">twitch\</a>', img1: 'public/assets/images/LouON.JPG', img2: 'public/assets/images/Twitch.JPG', img3: 'public/assets/images/streaming.gif', img1label: 'VR Chat Avatar Creation', img2label: 'Twitch Channel', img3label: 'Twitch Stream'});
 });
 
 module.exports = router;
