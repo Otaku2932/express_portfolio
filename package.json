@@ -24,7 +24,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "express portfolio",
-  "main": "./routes/index.js",
+  "main": "./server/routes/index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
